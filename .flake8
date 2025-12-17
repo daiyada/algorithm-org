@@ -1,0 +1,13 @@
+[flake8]
+max-line-length = 79
+extend-ignore = E203
+
+exclude =
+    .algo-org-env
+    .git,
+    __pycache__,
+    .llm-env,
+    .venv,
+    venv,
+    build,
+    dist
